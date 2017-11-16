@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_index"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.user.smart_education.IndexActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/img7">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:paddingLeft="20dp"
+            app:srcCompat="@drawable/img8"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="Taher ASSILI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="20dp"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:id="@+id/textView" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:background="@drawable/img10">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="Assuidite">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/assuidite"
+                android:id="@+id/imageView3" />
+
+
+            <TextView
+                android:text="Assuidité scolaire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="1dp"
+                android:textSize="20sp"
+                android:textColor="#BBD2E1"
+                android:id="@+id/textView3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="Affichage">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/affiche_note"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:text="Affichage des notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="1dp"
+                android:textSize="20sp"
+                android:textColor="#BBD2E1"
+                android:id="@+id/textView4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="Travail">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/homework"
+                android:id="@+id/imageView5" />
+
+            <TextView
+                android:text="Travail scolaire"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="#BBD2E1"
+                android:id="@+id/textView5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="Fiche">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                app:srcCompat="@drawable/suivi"
+                android:id="@+id/imageView6" />
+
+            <TextView
+                android:text="Fiche de suivi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textColor="#BBD2E1"
+                android:id="@+id/textView6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="Atualite">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/actualite"
+                android:id="@+id/imageView7" />
+
+            <TextView
+                android:text="Actualité"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="1dp"
+                android:textSize="20sp"
+                android:textColor="#BBD2E1"
+                android:id="@+id/textView7" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

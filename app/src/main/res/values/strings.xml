@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart Education</string>
+    <string-array name="navigations_array">
+        <item>Accueil</item>
+        <item>Assuidité scolaire</item>
+        <item>Affichage des notes</item>
+        <item>Travail scolaire</item>
+        <item>Fiche de suivi</item>
+        <item>Actualité</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>
